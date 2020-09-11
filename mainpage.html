@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+    <script>
+    function passvalue(){
+
+  var username1 = document.getElementById("person1").value;//kap dhe ruaj lojtarin 1
+  localStorage.setItem("textvalue", username1);
+  var username2 = document.getElementById("person2").value;//lojtari 2
+  localStorage.setItem("textvalue2", username2);
+}
+
+        </script>
+
+  </head>
+  <body>
+
+    <div class="container">
+  <h1>Miresevini !</h1>
+  <form name="form1" id="frmTest" action="dicee.html">
+        <div class="dice">
+
+                  <p id="player1">Lojtari 1</p>
+        <input  class="txtinput" type="text" id="person1" placeholder="Emri....">
+        </div>
+
+      <div class="dice">
+        <p id="player2">Lojtari 2</p>
+        <input class="txtinput" type="text" id="person2" placeholder="Emri....">
+      </div>
+
+
+      </div>
+              <div class="container">
+          <button id="myButton" type="submit"  onclick="passvalue();">Fillo lojen</button>
+      </div>
+</form>
+  </body>
+
+  <footer>
+   Let's 🎲 settle 🎲 this!
+  </footer>
+</html>

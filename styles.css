@@ -1,0 +1,75 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.txtinput {
+  height: 50px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #4ECCA3;
+  margin: 5px 10px 5px 0;
+  padding: 5px;
+  border: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.txtinput:hover {
+  border: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+#myButton {
+  background-color: #ae6a8a;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+#myButton:hover {
+  background-color: #ae6a8a; /* Some kind of pink */
+  color: white;
+  border: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: #133b5c;
+}
+
+h1 {
+  margin: 10px;
+  font-family: 'Lobster';
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 15%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
